@@ -26,6 +26,6 @@
    - `rails --version` => Rails 7.1.1
 
 # database decision
-- KISS - just use SQL-LITE, which seems to already have been installed on my mac. Did I do this previously with homebrew?
+- KISS - just use SQL-LITE, which seems to be on my mac. Did I do this previously with homebrew?
    - `which sqlite3` => /usr/bin/sqlite3
    - `sqlite3 --version` => 3.39.5 2022-10-14 20:58:05 554764a6e721fab307c63a4f98cd958c8428a5d9d8edfde951858d6fd02daapl
