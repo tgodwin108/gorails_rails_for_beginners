@@ -12,4 +12,7 @@ https://gorails.com/series/rails-6-for-beginners
 - https://youtube.com/playlist?list=PLm8ctt9NhMNV75T9WYIrA6m9I_uw7vS56&feature=shared
 
 # Setup Decisions
-read the [SETUP](./SETUP.md) documentation
+read the [SETUP](./doc/SETUP.md) documentation
+
+# Questions
+read the [QUESTIONS](./doc/QUESTIONS.md) blog
