@@ -29,3 +29,8 @@
 - KISS - just use SQL-LITE, which seems to be on my mac. Did I do this previously with homebrew?
    - `which sqlite3` => /usr/bin/sqlite3
    - `sqlite3 --version` => 3.39.5 2022-10-14 20:58:05 554764a6e721fab307c63a4f98cd958c8428a5d9d8edfde951858d6fd02daapl
+
+# create a new rails app
+- I already had a directory with a .git directory(and a rails specific .gitignore), so I wanted to create my new application in that directory. The command given in the class was `rails new scheduled_tweets`, I created my new app with these commands:
+   - `cd $HOME/dev/gorails`
+   - `rails new . --skip-git`
