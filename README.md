@@ -11,3 +11,5 @@ https://gorails.com/series/rails-6-for-beginners
 - Watch in YouTube only
 - https://youtube.com/playlist?list=PLm8ctt9NhMNV75T9WYIrA6m9I_uw7vS56&feature=shared
 
+# Setup Decisions
+read the [SETUP](./SETUP.md) documentation
