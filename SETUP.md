@@ -7,7 +7,7 @@
    - `git config --local user.email 'tgodwin108@yahoo.com'`
 
 # install Ruby
-- I use RVM, so I just ran the 'rvm install' command
+- I use RVM, so I just ran the 'rvm install' command to get a the version of Ruby recommended in the class.
    - `rvm install 3.2.2`
    - `rvm use 3.2.2 --default`
 - version check
