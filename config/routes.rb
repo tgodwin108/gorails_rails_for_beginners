@@ -2,10 +2,12 @@
 
 Rails.application.routes.draw do
   # GET /about
-  get "/about", to: "about#index"
+  get "/about-us", to: "about#index", as: :about
 
-  # get "/", to: "main#index"
+
   # Rails has special syntax for the "root route"
+  # using "normal" syntax, you have: get "/", to: "main#index"
+  # However, you can replace 'get "/"'part with the word 'root'
   root to: "main#index"
 
 
