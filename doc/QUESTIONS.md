@@ -30,4 +30,4 @@
 
    So, we have lost a class attribute, "active", and we have lost the "aria-current" element and value.
 
-   In the comment section, someone asks about "marking the current page in navigation." The response is to use the [active_to](gem https://github.com/comfy/active_link_to) gem. 
+   In the comment section, someone asks about "marking the current page in navigation." The response is to use the [active_to](https://github.com/comfy/active_link_to) gem. 
