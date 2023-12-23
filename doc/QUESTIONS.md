@@ -35,7 +35,7 @@
 
 1. In Part 10, about "Flash messages," I did not understand about the persistance of the message value.
 
-   The video shows the value being set in the `app/controllers/main_controller.rb` file. And that has some persistace behavior.
+   The video shows, for demo purpose, a value being set in the `app/controllers/main_controller.rb` file. While that is not the "normal" way this feature is used, it does have some persistace behavior.
 
    He mentions that the "flash" hash in persisted by being added to cookies (7m 34s). I only see a `_gorails_session` cookie. What is this cookie? It looks to be encrypted...
 
