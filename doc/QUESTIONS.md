@@ -18,8 +18,8 @@
     The snippet has a <button> element with a class attribute of `navbar-toggler`. What is this? Nobody has explained it... 
 
     Looking at the Bootstrap documentation, I found this section about [toggler](https://getbootstrap.com/docs/5.3/components/navbar/#toggler).     However, I didn't understand what it said, or see anything useful in the examples...
-
     Silly goose, if you resize the page, you see the Navbar menu items become a hamburger menu... The menu is then a `<button>` to see the navigation options...
+
 
 4. In the Part 9, [URL Helpers and link_to](https://gorails.com/episodes/rails-for-beginners-part-9-url-helpers-and-link_to), we lose some element attributes which seem to indiciate the active navebar menu. No reference is made to this in the video. He transforms a link element from:
    
@@ -31,3 +31,18 @@
    So, we have lost a class attribute, "active", and we have lost the "aria-current" element and value.
 
    In the comment section, someone asks about "marking the current page in navigation." The response is to use the [active_to](https://github.com/comfy/active_link_to) gem. 
+
+
+1. In section 10 about "Flash messages" I am did not understand about the persistance of the message value.
+
+The video shows the value being set in the `app/controllers/main_controller.rb` file. And that has some persistace behavior.
+
+He mentions that the "flash" hash persisted by being added to cookies (7m 34s). I only see a `_gorails_session` cookie (what?). Is he correct about the flash? 
+
+Then we see different persistance behavior when he adds a `#now()` method when setting the value (e.g. `flash.now[:notice] = 'Login successful'`) and this changes the persistance. 
+
+At the end of the video he says: "I can set a message and then it just gest displayed and then disappears after the next request" (13m 45s). 
+
+So I will admit, I don't understand about the Rails "flash" and persistance...
+
+Time for google [Flash Messages in Rails](https://www.rubyguides.com/2019/11/rails-flash-messages/)
