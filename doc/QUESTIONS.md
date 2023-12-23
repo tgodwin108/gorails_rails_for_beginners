@@ -33,11 +33,11 @@
    In the comment section, someone asks about "marking the current page in navigation." The response is to use the [active_to](https://github.com/comfy/active_link_to) gem. 
 
 
-1. In section 10 about "Flash messages" I did not understand about the persistance of the message value.
+1. In Part 10, about "Flash messages," I did not understand about the persistance of the message value.
 
    The video shows the value being set in the `app/controllers/main_controller.rb` file. And that has some persistace behavior.
 
-   He mentions that the "flash" hash in persisted by being added to cookies (7m 34s). I only see a `_gorails_session` cookie. What is this cookie? It looks to be encryptred...
+   He mentions that the "flash" hash in persisted by being added to cookies (7m 34s). I only see a `_gorails_session` cookie. What is this cookie? It looks to be encrypted...
 
    Then he adds a `#now()` method when setting the value (e.g. `flash.now[:notice] = 'Login successful'`) and this changes the persistance. 
 
