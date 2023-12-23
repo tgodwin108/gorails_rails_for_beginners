@@ -35,14 +35,12 @@
 
 1. In section 10 about "Flash messages" I am did not understand about the persistance of the message value.
 
-The video shows the value being set in the `app/controllers/main_controller.rb` file. And that has some persistace behavior.
+   The video shows the value being set in the `app/controllers/main_controller.rb` file. And that has some persistace behavior.
 
-He mentions that the "flash" hash persisted by being added to cookies (7m 34s). I only see a `_gorails_session` cookie (what?). Is he correct about the flash? 
+   He mentions that the "flash" hash persisted by being added to cookies (7m 34s). I only see a `_gorails_session` cookie (what?). Is he correct about the flash? 
 
-Then we see different persistance behavior when he adds a `#now()` method when setting the value (e.g. `flash.now[:notice] = 'Login successful'`) and this changes the persistance. 
+   Then we see different persistance behavior when he adds a `#now()` method when setting the value (e.g. `flash.now[:notice] = 'Login successful'`) and this changes the persistance. 
 
-At the end of the video he says: "I can set a message and then it just gest displayed and then disappears after the next request" (13m 45s). 
+   At the end of the video he says: "I can set a message and then it just gest displayed and then disappears after the next request" (13m 45s). 
 
-So I will admit, I don't understand about the Rails "flash" and persistance...
-
-Time for google [Flash Messages in Rails](https://www.rubyguides.com/2019/11/rails-flash-messages/)
+   So I will admit, I don't understand about the Rails "flash" and persistance... åTime for google [Flash Messages in Rails](https://www.rubyguides.com/2019/11/rails-flash-messages/)
