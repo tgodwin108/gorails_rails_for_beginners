@@ -44,3 +44,9 @@
    At the end of the video he says: "I can set a message and then it just gets displayed and then disappears after the next request" (13m 45s). 
 
    So I will admit, I don't understand about the Rails "flash" helper method and persistance... Time for google [Flash Messages in Rails](https://www.rubyguides.com/2019/11/rails-flash-messages/)
+
+1. In Part 11, about "creating a model," we use the 'rails generate model' helper command. This command generates test artifacts. These are:
+ - test/models/user_test.rb
+ - test/fixtures/users.yml
+
+ I don't see where the class talks about these artifacts and testing. OOPS!
