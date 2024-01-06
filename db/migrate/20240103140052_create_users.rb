@@ -10,9 +10,15 @@ class CreateUsers < ActiveRecord::Migration[7.1]
   # With a "Reversable Migration" the system figures out how to 
   # execute the +down+ commands for you.
 
+  # after changes in Part 12, we learned the following commands:
+  #     1) rails db:rollback      - run +down+ from latest migration
+  #     2) rails db:migrate       - run +up+ from latest migration
+  #     3) rails db:migrate:redo  - combine the two commands into one
+  # for more info, here is the documentation: https://guides.rubyonrails.org/active_record_migrations.html#running-migrations
+
   def change
     create_table :users do |t|
-      t.string :email
+      t.string :email, null: false
       t.string :password_digest
 
       t.timestamps

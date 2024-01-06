@@ -46,4 +46,10 @@
 
 class User < ApplicationRecord
     has_secure_password
+
+    # 1) RegEx given in the video is too simple
+    # 2) constant given in video comments is too lax (URI::MailTo::EMAIL_REGEXP)
+    # 3) Stack overflow to the rescue - This is GOOD ENOUGH - https://stackoverflow.com/a/48409395
+    VALID_EMAIL_REGEX = /\A[\w+\-.]+@[a-z\d\-]+(\.[a-z\d\-]+)*\.[a-z]+\z/i
+    validates :email, presence: true, format: {with: VALID_EMAIL_REGEX, message: 'invalid email format'}
 end
