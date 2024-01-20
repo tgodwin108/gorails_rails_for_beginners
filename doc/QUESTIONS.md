@@ -52,3 +52,9 @@
      - test/fixtures/users.yml
 
      I don't see where the class talks about these artifacts and testing. OOPS!
+
+1. In Part 13, we create our first form. We added two routes. A 'GET' and a 'POST' route. The "GET" action whould display the empty form. The "POST" action will receive the "form submit" action. 
+
+However, we only coded the 'GET' functionality. This video did not show any of the "form submit" logic, the "POST" action. 
+
+The video showed the 'GET' functionality by entering the /sign_up URL in the browser. I added "Sign Up" as a new menu to the NavBar. This gave me a way to trigger the "GET" action. 
