@@ -32,6 +32,8 @@
 
    In the comment section, someone asks about "marking the current page in navigation." The response is to use the [active_to](https://github.com/comfy/active_link_to) gem. 
 
+   I did not implement anything so the NavBar shows the "active" tab
+
 
 1. In Part 10, about "Flash messages," I did not understand about the persistance of the message value.
 
