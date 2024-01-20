@@ -4,6 +4,8 @@ Rails.application.routes.draw do
   # GET /about
   get "/about-us", to: "about#index", as: :about
 
+  get "sign_up", to: "registrations#new"
+  post "sign_up", to: "registrations#create"
 
   # Rails has special syntax for the "root route"
   # using "normal" syntax, you have: get "/", to: "main#index"
