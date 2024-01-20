@@ -53,8 +53,8 @@
 
      I don't see where the class talks about these artifacts and testing. OOPS!
 
-1. In Part 13, we create our first form. We added two routes. A 'GET' and a 'POST' route. The "GET" action whould display the empty form. The "POST" action will receive the "form submit" action. 
+1. In Part 13, we create our first form. We added two routes. A 'GET' and a 'POST' route. The "GET" route should display the empty form. The "POST" route is where the Rails server "received" the "form submit" from the browser/user. 
 
-   However, we only coded the 'GET' functionality. This video did not show any of the "form submit" logic, the "POST" action. 
+   However, we only coded the 'GET' functionality. This video did not show any of the "form submit" logic, the "POST" route. 
 
-   The video showed the 'GET' functionality by entering the /sign_up URL in the browser. I added "Sign Up" as a new menu to the NavBar. This gave me a way to trigger the "GET" action. 
+   The video triggered the 'GET' functionality by entering the `/sign_up` URL in the browser. I added a new menu option to the NaveBar. I added a "Sign Up" menu. This gave me a way to trigger the "GET" action. 
