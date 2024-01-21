@@ -58,3 +58,11 @@
    However, we only coded the 'GET' functionality. This video did not show any of the "form submit" logic, the "POST" route. 
 
    The video triggered the 'GET' functionality by entering the `/sign_up` URL in the browser. I added a new menu option to the NaveBar. I added a "Sign Up" menu. This gave me a way to trigger the "GET" action. 
+
+1. Part 14, starts by showing a failure when you "sumbit" the registration form. I am working with Rails 7.1.1 and I did not see the error.
+
+   When I looked at the [course web page](https://gorails.com/episodes/rails-for-beginners-part-14-handling-sign-up-errors), the comments at the bottom talked about some "extra" code needed because "Rails 7 has [Hotwire](https://turbo.hotwired.dev) enabled by default..."
+
+   I updated the sign_up view, `views/registrations/new.html.erb`, with the code from a comment and it "disabled" turbo so I got the error as seen in the video. 
+
+   Gorails has a tutorial about "[How to use Hotwire in Rails](https://gorails.com/episodes/hotwire-rails)"
