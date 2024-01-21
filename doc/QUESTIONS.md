@@ -63,6 +63,6 @@
 
    When I looked at the [course web page](https://gorails.com/episodes/rails-for-beginners-part-14-handling-sign-up-errors), the comments at the bottom talked about some "extra" code needed because "Rails 7 has [Hotwire](https://turbo.hotwired.dev) enabled by default..."
 
-   I updated the sign_up view, `views/registrations/new.html.erb`, with the code from a comment and it "disabled" turbo so I got the error as seen in the video. 
+   I [updated](https://github.com/tgodwin108/gorails_railsv6/commit/9c2908ebfc612bad289d0d2ccdd3744944fefe0f) the sign_up view, `views/registrations/new.html.erb`, with the code from a comment and it "disabled" turbo so I got the error as seen in the video. 
 
    Gorails has a tutorial about "[How to use Hotwire in Rails](https://gorails.com/episodes/hotwire-rails)"
