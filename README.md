@@ -14,6 +14,9 @@ The GoRails web site has a few pages on system setup. They include instrictions 
 
 I decided to keep it simple. I documented the steps I did in this [SETUP](./doc/SETUP.md) documentation
 
+# SQL Database
+Sometimes you just want to talk directly to the horses mouth. To me this means interacting with the database. So here are some [SQL Database](./doc/SQL.md) notes.
+
 # Bootstrap
 This class uses Bootstrap in .ERB files to create the GUI. The videos often lookup different [Bootstrap](https://getbootstrap.com) components on the "Docs" page: https://getbootstrap.com/docs/5.3/getting-started/introduction/
 
