@@ -22,7 +22,7 @@ SQLite database with the [SQLite CLI](https://sqlite.org/cli.html)
    1. `rails db` - connect to the configured db for the current environment (BOOM DONE)
 
 
-Using `rails dbconsole` (or `rails db` as a short-cut) makes the most sense are it should work for all possible databases.
+Using `rails dbconsole` (or `rails db` as a short-cut) makes the most sense as it should work for all possible databases.
 
 
 
